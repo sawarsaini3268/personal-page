@@ -3794,6 +3794,10 @@ input[type="button"].btn--primary:focus {
     border-radius: 50%;
 }
 
+.s-about__content p span {
+    color: white; 
+}
+
 .s-about__content-bottom {
     margin-top: var(--vspace-2);
 }
@@ -3833,6 +3837,8 @@ input[type="button"].btn--primary:focus {
 .s-about__content-bottom .btn--download:focus svg path {
     fill: white;
 }
+
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
