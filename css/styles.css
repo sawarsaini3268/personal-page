@@ -3889,8 +3889,8 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-resume {
     background-color: white;
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
+    padding-top: calc(4 * var(--space));
+    padding-bottom: var(--vspace-2);
 }
 
 .s-resume__section {
@@ -4016,7 +4016,7 @@ input[type="button"].btn--primary:focus {
 
 .folio-item__thumb::after {
     z-index: 1;
-    content: "...";
+    content: "";
     font-family: var(--font-2);
     font-weight: 300;
     font-size: 3rem;
