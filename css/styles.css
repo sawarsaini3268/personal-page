@@ -3938,14 +3938,16 @@ input[type="button"].btn--primary:focus {
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: .12em;
-    color: var(--color-text-light);
+    color: var(--color-text);
 }
 
-.resume-block__header-date::before {
+/*
+.resume-block__header-date::after {
     content: "\2022";
     color: var(--color-text);
     margin-right: .2rem;
 }
+*/
 
 /* ------------------------------------------------------------------- 
  * responsive:
